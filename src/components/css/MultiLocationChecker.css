@@ -1,0 +1,44 @@
+.multi-location-checker {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .multi-location-checker input {
+    padding: 10px;
+    border: 2px solid #1e3a8a;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .multi-location-checker button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .multi-location-checker button:hover {
+    background-color: #0f2c72;
+  }
+  
+  .location-weather {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .weather-info {
+    margin: 10px;
+  }
+  
