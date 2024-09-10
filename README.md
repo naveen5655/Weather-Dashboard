@@ -11,8 +11,8 @@ This project is beneficial for event planners, farmers and travelers.
    - Access the application at http://localhost:3000
 
 ### Run with Docker
-   - Build the Docker Image: `docker build -t weather-dashboard`
-   - Run the Docker Container: `docker run -p 3000:80 weather-dashboard`
+   - Build the Docker Image: `docker build -t weather-dashboard:1.0 .`
+   - Run the Docker Container: `docker run -p 3000:80 weather-dashboard:1.0`
    - Access the application at http://localhost:3000
 
 ### Output
