@@ -6,11 +6,9 @@ DOCKER_IMAGE = naveen5655/weather-dashboard:latest
 
 lint:
 	@echo "Linting the code..."
-	# Add your linting commands here (e.g., eslint, flake8)
 
 test:
 	@echo "Running tests..."
-	# Add your testing commands here (e.g., jest, pytest)
 
 build:
 	@echo "Building Docker image..."
